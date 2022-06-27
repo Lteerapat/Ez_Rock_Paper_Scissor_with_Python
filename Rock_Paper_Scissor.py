@@ -9,7 +9,7 @@ tie = 0
 while True:
     user_hand = input("Choose rock, paper, scissor or type quit to end the game: ") #user choose rock paper scissor or wanna quit
     user_hand = user_hand.lower() #change to lowercase string
-    random_computer_hand = sample(hand_list, 1) #computer chosse its hand
+    random_computer_hand = sample(hand_list, 1) #computer choose its hand
     computer_hand = (''.join(random_computer_hand)) #remove brackets and quotes
     if user_hand == "quit": #if user type quit then break out the loop
         print("You have ended the game, thank you for playing with me!")
